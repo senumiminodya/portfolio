@@ -5,6 +5,41 @@
     <title>Feedback</title>
 </head>
 <body>
-
+    <header>
+        <img src="images/feedback_page_images/senu%20logo.png" title="senu" alt="senu" width="100">
+    </header>
+    <!-- center -->
+    <h1>FEEDBACK</h1>
+    <form>
+        <div>
+            <label for="feedbackType" id="feedbackType"><h3>Feedback Type</h3></label>
+            <input type="radio" id="comments" name="feedbackType"><label for="comments">Comments</label>
+            <input type="radio" id="suggesions" name="feedbackType"><label for="suggesions">Suggesions</label>
+            <input type="radio" id="questions" name="feedbackType"><label for="questions">Questions</label>
+        </div>
+        <br>
+        <div>
+          <label for="describeFeedback" id="describeFeedback"><h3>Describe Your Feedback:</h3></label>
+          <div>
+            <textarea
+                    id="message"
+                    placeholder="Enter Your message here"
+                    rows="10"
+                    cols="50"
+            ></textarea>
+          </div>
+          <br>
+        </div>
+        <div>
+          <label for="name" ><h3>Name</h3></label>
+          <input type="text" id="name" placeholder="Enter your Username">
+        </div>
+        <div>
+          <label for="email" ><h3>E-mail</h3></label>
+          <input type="text" id="email" placeholder="Enter your E-mail">
+        </div>
+    </form>
+    <br>
+    <button type="submit">Submit</button>
 </body>
 </html>
